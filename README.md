@@ -450,7 +450,7 @@ The project uses three services.
 
 ```bash
 cd ml-service
-python app.py
+python app.py / .\venv\Scripts\python.exe app.py
 ```
 
 The ML service runs on:
