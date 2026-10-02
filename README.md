@@ -450,7 +450,7 @@ The project uses three services.
 
 ```bash
 cd ml-service
-python app.py / .\venv\Scripts\python.exe app.py
+python app.py  (OR use if have virtual eni.. -> .\venv\Scripts\python.exe app.py)
 ```
 
 The ML service runs on:
@@ -480,7 +480,7 @@ Open another terminal:
 
 ```bash
 cd client
-npm run dev
+npm.cmd run dev
 ```
 
 Then open the localhost URL shown by Vite in your browser.
